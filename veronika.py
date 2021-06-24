@@ -107,6 +107,6 @@ while True:
             try:
                 sys.exit()
             except Exception as e:
-                print("hello world")
+                print("can't exit")
             
         
