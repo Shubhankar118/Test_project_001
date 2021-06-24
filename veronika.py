@@ -5,6 +5,7 @@ import datetime
 import webbrowser
 import os
 import smtplib
+import sys
 
 
 
@@ -102,3 +103,10 @@ while True:
             except Exception as e:
                 #print(e)
                 speak("sir right now you did not gave me permission to send emils")
+        elif 'exit' in query:
+            try:
+                sys.exit()
+            except Exception as e:
+                print("hello world")
+            
+        
